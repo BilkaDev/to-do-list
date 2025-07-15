@@ -6,7 +6,7 @@ export const DashboardLayout = () => {
   return (
     <Box className="flex min-h-screen bg-gray-200">
       <SideBar />
-      <Box component="main" className={`flex grow pl-[60px] pt-[100px] md:pl-[150px]`}>
+      <Box component="main" className={`flex grow pl-[60px] md:pl-[150px]`}>
         <Outlet />
       </Box>
     </Box>
